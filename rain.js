@@ -119,6 +119,7 @@ const rain = (amount) => {
 }
 
 const stopRaining = () => {
+  console.log("stp")
   clearInterval(raining)
   raining = null
 }
