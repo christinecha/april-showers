@@ -1,0 +1,58 @@
+body {
+  background-color: #1d1d1f;
+  font-family: 'Inconsolata', monospace;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.tools {
+  color: #fff;
+  opacity: 0.5;
+  padding: 10px;
+  position: absolute;
+  left: 15px;
+  bottom: 30px;
+}
+
+.tools div {
+  margin: 12px;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  display: inline-block;
+}
+
+.key {
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 2px 4px;
+}
+
+.signature {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  opacity: 0.5;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+.signature:hover {
+  opacity: 1;
+}
+
+.raindrop {
+  width: 2px;
+  height: 50px;
+  background-color: #fff;
+  position: absolute;
+}
+
+.puddle {
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  border: 2px solid #fff;
+  border-radius: 100%;
+}
